@@ -1,0 +1,12 @@
+/* Not used. Customs styles and theme overrides can be found in
+    /custom/styles/bayer.css
+ */
+
+
+.quick-contact-widget .form-control,
+.quick-contact-widget .input-group,
+.quick-contact-widget .sm-form-control { margin-bottom: 10px; }
+.quick-contact-widget .input-group .form-control { margin-bottom: 0; }
+.quick-contact-widget form,
+#template-contactform { position: relative; }
+

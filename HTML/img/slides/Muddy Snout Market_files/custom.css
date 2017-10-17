@@ -1,0 +1,383 @@
+/* Add here all your CSS customizations */
+
+html.sticky-header-active #header .header-body {
+  top: -75px !important;
+}
+.page-header.custom-product {
+  overflow: visible;
+}
+.form-horizontal .form-group-lg .form-control {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.form-horizontal .input-group {
+    display: inline;
+}
+form#search ul {
+  margin: 20px 15px 0;
+  padding: 0;
+  list-style-type: none;
+}
+#search ul li {
+  padding-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.thumb-info-social-icons a[href^='tel'] {
+  background: none !important;
+  border-radius: 0 !important;
+  width: auto !important;
+}
+.doctor-info td {
+  vertical-align: text-top;
+  padding-bottom: 10px;
+}
+
+.doctor-info td .small-blue {
+  font-weight: bold;
+  display: inline-block;
+  width: 140px;
+  color: #287dc8;
+}
+
+.doctor-info td .fa {
+  color: #FFF;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  border-color: #0088cc;
+  background: #0088cc;
+  margin-right: 5px;
+}
+.doctor-info td.left {
+  width: 100px;
+}
+
+.doctor-info td strong {
+  min-width: 85px;
+  display: inline-block;
+}
+.doctor-info td.left strong {
+  min-width: auto;
+}
+.accordion-body {
+  padding: 20px;
+}
+.doc-link-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.doc-link-container .feature-box-info {
+  padding-top: 7px;
+}
+.location-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.location-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.location-list li.active {
+  background: #eee;
+}
+.location-list li .location-name {
+  font-weight: 600;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+.location-list li .location-info {
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.location-list li .location-info:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.location-list li span {
+  display: block;
+}
+.location-list li .location-info > .fa {
+  display: block;
+  float: left;
+  margin: 3px 5px 0 0;
+  width: 11px;
+  color: #0088cc;
+}
+.location-list li .location-info > .location-content {
+  display: block;
+  float: left;
+}
+.map-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+}
+.link-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 20px;
+  position: relative;
+}
+.tab-pane.active:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.img-container {
+  width: 40%;
+  padding: 0px 20px 10px 20px;
+}
+
+.img-container.pull-left{
+  width: 40%;
+  padding-left: 0px;
+}
+
+.img-container.pull-right{
+  width: 40%;
+  padding-right: 0px;
+}
+
+.img-container.fullsize {
+  width: 100%;
+}
+
+.img-container img {
+
+  width: 100%;
+
+}
+.img-container.pull-left img{
+  width: 100%;
+  border-radius: 40px 10px;
+}
+
+.img-container.pull-right img{
+  width: 100%;
+  border-radius: 10px 40px;
+}
+.doctor-side {
+  float: left;
+}
+.doctor-main {
+  float: right;
+}
+.accordion-body p {
+  position: relative;
+}
+article.post {
+  position: relative;
+}
+.list.list-icons.list-icons-sm li {
+  padding-left: 18px;
+}
+.embed-responsive iframe {
+  width: 100%;
+}
+.rev_slider a {
+  color: #fff;
+}
+.rev_slider a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.thumb-info-social-icons a[href^='tel'] {
+  background: none !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  display: inline;
+  font-size: 0.9em;
+  line-height: 20px;
+}
+.thumb-info-social-icons span.no-appt {
+  font-size: 0.9em;
+  line-height: 20px;
+}
+.tab-content .tab-pane.active {
+  position: relative;
+}
+.post-content.related-news {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.post-content .content-collapse,
+.post-content .content-expand {
+  padding-bottom: 20px;
+}
+.post-content ul {
+  display: table-cell;
+}
+.post-content ul li:first-child {
+  margin-top: 10px;
+}
+.post-content ul li:last-child {
+  margin-bottom: 10px;
+}
+.dropdown-mega-sub-nav li a {
+  border-bottom: 1px solid #f4f4f4 !important;
+}
+.editable-opacity {
+  position: relative;
+  opacity: 0.5;
+  background: #000;
+}
+.editable-opacity .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  
+  padding: 0;
+  margin: 0;
+  opacity: 0.5;
+}
+.header-row .header-column.stay-wide {
+  width: 100%;
+}
+
+.call-to-action p {
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html.sticky-header-active #header .header-social-icons {
+    margin-top: 40px;
+  }
+  html.sticky-header-active #header .header-btn-collapse-nav {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html.sticky-header-active #header .header-body {
+    top: -75px !important;
+  }
+  #header .header-body .header-logo img {
+    height: 75px !important;
+    width: 122px !important;
+  }
+  html.sticky-header-active #header .header-logo {
+    display: inline-block;
+  }
+  html.sticky-header-active #header .header-logo img {
+    width: 122px !important;
+    height: 75px !important;
+  }
+
+  /*html.sticky-header-active #header .header-btn-collapse-nav {
+    margin-top: 67px;
+  }*/
+  .doctor-side,
+  .doctor-main {
+    float: none;
+  }
+  .img-thumbnail {
+    max-width: 99%;
+  }
+  /*.img-container.pull-right {
+    width: 100%;
+  }
+  .img-container.pull-left {
+    width: 100%;
+  }*/
+  .spotlight-content {
+    float: none !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .img-container.pull-right {
+    width: 100%;
+    float: none !important;
+  }
+  .img-container.pull-left {
+    width: 100%;
+    float: none !important;
+  }
+  .related-news .img-container img {
+    max-height: 180px;
+    width: auto;
+  }
+  .header-nav-top {
+    font-size: 9px;
+  }
+}
+
+/*
+****************** Google Custom Search *********************
+*/
+
+.gsc-orderby-container {
+  display: none !important;
+}
+.gcsc-branding {
+  display: none !important;
+}
+.gsc-adBlock {
+  display: none !important;
+}
+
+/*
+****************** SMC EDIT TAGS *********************
+*/
+
+.smc-edit, .smc-new, .smc-edit-template {
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  float: right;
+  cursor: pointer;
+  z-index: 99999;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 4px 5px !important;
+  line-height: 14px;
+  color: #999 !important;
+  background: #fff;
+  top: 0px;
+}
+
+.smc-edit{
+  right: 20px;
+}
+.smc-new{
+  right: 60px;
+}
+.smc-edit-template{
+  right: 100px;
+}
+.pos-left-20 {
+  right: auto;
+  left: 20px;
+}
+.pos-left-60 {
+  right: auto;
+  left: 60px;
+}
+.pos-left-100 {
+  right: auto;
+  left: 100px;
+}
+.neg-top {
+  top: -25px;
+}
+.smc-edit:hover, .smc-new:hover, .smc-edit-template:hover {
+  color: #77c4d5 !important;
+  border-color: #77c4d5;
+  text-decoration: none;
+}
+.smc-edit i, .smc-new i, .smc-edit-template i {
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+}

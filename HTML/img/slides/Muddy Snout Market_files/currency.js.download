@@ -1,0 +1,14 @@
+$(function() {
+
+  // toggle USD to BTC
+  $('.currency').css('cursor', 'pointer');
+
+  $('.currency').on('click', function() {
+    var current = $(this).html();
+    var swap = $(this).attr('title');
+    $(this).attr('title', current);
+    $(this).html(swap);
+  });
+
+
+});
